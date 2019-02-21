@@ -76,6 +76,7 @@
       "src/**/*.{js,jsx,ts,tsx}",
       "!src/**/*.d.ts"
     ],
+    "setupTestFrameworkScriptFile": "<rootDir>/config/jest/jest.setup.js",
     "resolver": "jest-pnp-resolver",
     "setupFiles": [
       "react-app-polyfill/jsdom"

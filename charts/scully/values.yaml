@@ -22,6 +22,8 @@ resources:
     cpu: 200m
     memory: 128Mi
 probePath: /
+mulder:
+  enabled: false
 livenessProbe:
   initialDelaySeconds: 60
   periodSeconds: 10
